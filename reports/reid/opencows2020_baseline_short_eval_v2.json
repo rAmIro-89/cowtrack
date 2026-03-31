@@ -1,0 +1,16 @@
+{
+  "train_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\train",
+  "val_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\test",
+  "weights": "outputs/reid/opencows2020_baseline_short.pt",
+  "device": "cuda",
+  "gallery_id_count": 46,
+  "gallery_item_count": 46,
+  "val_id_count": 46,
+  "query_count": 496,
+  "val_images_evaluated": 496,
+  "top1_accuracy": 0.6189516129032258,
+  "top5_accuracy": 0.9737903225806451,
+  "top_k": 5,
+  "intra_id_distance_mean": 0.03684923466648099,
+  "inter_id_distance_mean": 0.7638857559534714
+}

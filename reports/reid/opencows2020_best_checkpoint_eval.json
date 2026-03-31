@@ -1,0 +1,126 @@
+{
+  "device": "cuda",
+  "top_k": 5,
+  "candidates_evaluated": 15,
+  "best": {
+    "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_015.pt",
+    "top1_accuracy": 0.782258064516129,
+    "top5_accuracy": 0.9798387096774194,
+    "query_count": 496,
+    "gallery_id_count": 46
+  },
+  "last_checkpoint": {
+    "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_015.pt",
+    "top1_accuracy": 0.782258064516129,
+    "top5_accuracy": 0.9798387096774194,
+    "query_count": 496,
+    "gallery_id_count": 46
+  },
+  "all_ranked": [
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_015.pt",
+      "top1_accuracy": 0.782258064516129,
+      "top5_accuracy": 0.9798387096774194,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_012.pt",
+      "top1_accuracy": 0.7338709677419355,
+      "top5_accuracy": 0.9758064516129032,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_010.pt",
+      "top1_accuracy": 0.7318548387096774,
+      "top5_accuracy": 0.9596774193548387,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_014.pt",
+      "top1_accuracy": 0.7258064516129032,
+      "top5_accuracy": 0.9758064516129032,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_013.pt",
+      "top1_accuracy": 0.717741935483871,
+      "top5_accuracy": 0.9536290322580645,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_007.pt",
+      "top1_accuracy": 0.7116935483870968,
+      "top5_accuracy": 0.9576612903225806,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_008.pt",
+      "top1_accuracy": 0.6713709677419355,
+      "top5_accuracy": 0.9758064516129032,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_009.pt",
+      "top1_accuracy": 0.6592741935483871,
+      "top5_accuracy": 0.9435483870967742,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_004.pt",
+      "top1_accuracy": 0.655241935483871,
+      "top5_accuracy": 0.9475806451612904,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_006.pt",
+      "top1_accuracy": 0.625,
+      "top5_accuracy": 0.9717741935483871,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_005.pt",
+      "top1_accuracy": 0.625,
+      "top5_accuracy": 0.967741935483871,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_011.pt",
+      "top1_accuracy": 0.5866935483870968,
+      "top5_accuracy": 0.9455645161290323,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_003.pt",
+      "top1_accuracy": 0.5725806451612904,
+      "top5_accuracy": 0.9536290322580645,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_002.pt",
+      "top1_accuracy": 0.5625,
+      "top5_accuracy": 0.9254032258064516,
+      "query_count": 496,
+      "gallery_id_count": 46
+    },
+    {
+      "checkpoint": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel\\epoch_001.pt",
+      "top1_accuracy": 0.5100806451612904,
+      "top5_accuracy": 0.9354838709677419,
+      "query_count": 496,
+      "gallery_id_count": 46
+    }
+  ]
+}

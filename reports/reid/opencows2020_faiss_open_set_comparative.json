@@ -1,0 +1,85 @@
+{
+  "checkpoint": "outputs/reid/checkpoints/opencows2020_e15_ckptsel/epoch_015.pt",
+  "threshold_calibration_method": "threshold sweep on top1 similarity; objective=balanced acceptance/rejection for correct vs incorrect predictions",
+  "recommended_thresholds": {
+    "prototype": 0.9927988052368164,
+    "all_vectors": 0.9995235204696655
+  },
+  "rows": [
+    {
+      "mode": "prototype",
+      "setting": "no_threshold",
+      "threshold": null,
+      "gallery_vectors": 46,
+      "top1_accuracy": 0.782258064516129,
+      "top5_accuracy": 0.9798387096774194,
+      "top1_accuracy_thresholded": 0.782258064516129,
+      "top5_accuracy_thresholded": 0.9798387096774194,
+      "unknown_rejection_rate": 0.0,
+      "false_rejects": 0,
+      "false_accepts": 108,
+      "accepted_queries": 496,
+      "query_count": 496
+    },
+    {
+      "mode": "prototype",
+      "setting": "with_threshold",
+      "threshold": 0.9927988052368164,
+      "gallery_vectors": 46,
+      "top1_accuracy": 0.782258064516129,
+      "top5_accuracy": 0.9798387096774194,
+      "top1_accuracy_thresholded": 0.3790322580645161,
+      "top5_accuracy_thresholded": 0.41935483870967744,
+      "unknown_rejection_rate": 0.5725806451612904,
+      "false_rejects": 284,
+      "false_accepts": 24,
+      "accepted_queries": 212,
+      "query_count": 496
+    },
+    {
+      "mode": "all_vectors",
+      "setting": "no_threshold",
+      "threshold": null,
+      "gallery_vectors": 4240,
+      "top1_accuracy": 0.842741935483871,
+      "top5_accuracy": 0.9475806451612904,
+      "top1_accuracy_thresholded": 0.842741935483871,
+      "top5_accuracy_thresholded": 0.9475806451612904,
+      "unknown_rejection_rate": 0.0,
+      "false_rejects": 0,
+      "false_accepts": 78,
+      "accepted_queries": 496,
+      "query_count": 496
+    },
+    {
+      "mode": "all_vectors",
+      "setting": "with_threshold",
+      "threshold": 0.9995235204696655,
+      "gallery_vectors": 4240,
+      "top1_accuracy": 0.842741935483871,
+      "top5_accuracy": 0.9475806451612904,
+      "top1_accuracy_thresholded": 0.4657258064516129,
+      "top5_accuracy_thresholded": 0.4959677419354839,
+      "unknown_rejection_rate": 0.4939516129032258,
+      "false_rejects": 245,
+      "false_accepts": 20,
+      "accepted_queries": 251,
+      "query_count": 496
+    }
+  ],
+  "best_configuration": {
+    "mode": "all_vectors",
+    "setting": "no_threshold",
+    "threshold": null,
+    "gallery_vectors": 4240,
+    "top1_accuracy": 0.842741935483871,
+    "top5_accuracy": 0.9475806451612904,
+    "top1_accuracy_thresholded": 0.842741935483871,
+    "top5_accuracy_thresholded": 0.9475806451612904,
+    "unknown_rejection_rate": 0.0,
+    "false_rejects": 0,
+    "false_accepts": 78,
+    "accepted_queries": 496,
+    "query_count": 496
+  }
+}

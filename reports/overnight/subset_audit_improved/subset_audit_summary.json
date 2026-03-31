@@ -1,0 +1,22 @@
+{
+  "subset_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\processed\\yolo_aerial_overnight",
+  "train_images": 101,
+  "val_images": 25,
+  "train_empty_labels": 58,
+  "val_empty_labels": 12,
+  "train_empty_pct": 57.43,
+  "val_empty_pct": 48.0,
+  "train_objects": 133,
+  "val_objects": 36,
+  "train_tiny_boxes": 68,
+  "val_tiny_boxes": 19,
+  "missing_label_count": 0,
+  "malformed_label_count": 0,
+  "invalid_bbox_count": 0,
+  "duplicate_image_hash_groups": 0,
+  "duplicate_image_files_total": 0,
+  "class_distribution": {
+    "0": 169
+  },
+  "visual_samples_saved": 56
+}

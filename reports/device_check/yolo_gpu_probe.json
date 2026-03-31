@@ -1,0 +1,11 @@
+{
+  "pid": 23832,
+  "image": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\raw\\zenodo_grazing_cows\\extracted\\Cattle_drone_images\\Derval\\JPGImages\\DJI_202308091442_012\\DJI_20230809145602_0001_V.JPG",
+  "model": "yolov8n.pt",
+  "device": "0",
+  "iters": 60,
+  "imgsz": 960,
+  "total_detections": 0,
+  "elapsed_sec": 5.8514,
+  "avg_iter_sec": 0.097523
+}

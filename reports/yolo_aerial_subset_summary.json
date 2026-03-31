@@ -1,0 +1,19 @@
+{
+  "zenodo_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\raw\\zenodo_grazing_cows\\extracted\\Cattle_drone_images",
+  "output_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\processed\\yolo_aerial_baseline",
+  "total_label_files_found": 1079,
+  "valid_samples_found": 618,
+  "missing_image_count": 461,
+  "invalid_label_count": 0,
+  "selected_total": 249,
+  "train_images": 200,
+  "val_images": 49,
+  "train_objects": 1579,
+  "val_objects": 512,
+  "train_empty_labels": 66,
+  "val_empty_labels": 14,
+  "selection_non_empty_max": 220,
+  "selection_empty_max": 80,
+  "val_ratio": 0.2,
+  "seed": 42
+}

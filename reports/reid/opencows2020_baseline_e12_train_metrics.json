@@ -1,0 +1,73 @@
+{
+  "device": "cuda",
+  "train_dir": "data/raw/opencows2020/10m32xl88x2b61zlkkgz3fml17/identification/images/train",
+  "num_samples": 4240,
+  "num_identities": 46,
+  "epochs": 12,
+  "batch_size": 16,
+  "embedding_dim": 256,
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "avg_loss": 0.09231085192509883,
+      "steps_with_triplets": 264
+    },
+    {
+      "epoch": 2,
+      "avg_loss": 0.07398487253703247,
+      "steps_with_triplets": 261
+    },
+    {
+      "epoch": 3,
+      "avg_loss": 0.06220888959173605,
+      "steps_with_triplets": 265
+    },
+    {
+      "epoch": 4,
+      "avg_loss": 0.048750334048098976,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 5,
+      "avg_loss": 0.04544720316727487,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 6,
+      "avg_loss": 0.057786316644918734,
+      "steps_with_triplets": 264
+    },
+    {
+      "epoch": 7,
+      "avg_loss": 0.041860017303447676,
+      "steps_with_triplets": 261
+    },
+    {
+      "epoch": 8,
+      "avg_loss": 0.047189762603430045,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 9,
+      "avg_loss": 0.03785081434762105,
+      "steps_with_triplets": 264
+    },
+    {
+      "epoch": 10,
+      "avg_loss": 0.03672841471764874,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 11,
+      "avg_loss": 0.02866631244344391,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 12,
+      "avg_loss": 0.036913557788181416,
+      "steps_with_triplets": 262
+    }
+  ],
+  "final_loss": 0.036913557788181416,
+  "model_path": "outputs\\reid\\opencows2020_baseline_e12.pt"
+}

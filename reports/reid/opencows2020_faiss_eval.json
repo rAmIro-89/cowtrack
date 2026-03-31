@@ -1,0 +1,15 @@
+{
+  "query_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\test",
+  "index_path": "outputs/reid/faiss/opencows2020_gallery_prototype_e12.index",
+  "meta_path": "outputs/reid/faiss/opencows2020_gallery_prototype_e12_meta.json",
+  "weights": "outputs/reid/opencows2020_baseline_e12.pt",
+  "device": "cuda",
+  "gallery_vectors": 46,
+  "gallery_unique_ids": 46,
+  "query_count": 496,
+  "query_unique_ids": 46,
+  "top_k": 5,
+  "top1_accuracy": 0.5866935483870968,
+  "top5_accuracy": 0.9616935483870968,
+  "details_csv": "reports\\reid\\opencows2020_faiss_eval_queries.csv"
+}

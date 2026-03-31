@@ -1,0 +1,9 @@
+{
+  "split_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\train",
+  "weights": "outputs/reid/opencows2020_baseline_e12.pt",
+  "device": "cuda",
+  "count": 4240,
+  "embedding_dim": 256,
+  "unique_ids": 46,
+  "out_npz": "outputs\\reid\\opencows2020_train_embeddings_e12.npz"
+}

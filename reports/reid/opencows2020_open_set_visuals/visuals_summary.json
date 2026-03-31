@@ -1,0 +1,6 @@
+{
+  "prototype_hist": "reports\\reid\\opencows2020_open_set_visuals\\prototype_score_hist.png",
+  "allvectors_hist": "reports\\reid\\opencows2020_open_set_visuals\\allvectors_score_hist.png",
+  "prototype_examples": "reports\\reid\\opencows2020_open_set_visuals\\prototype_examples.csv",
+  "allvectors_examples": "reports\\reid\\opencows2020_open_set_visuals\\allvectors_examples.csv"
+}

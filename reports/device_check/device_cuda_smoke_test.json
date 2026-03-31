@@ -1,0 +1,10 @@
+{
+  "pid": 26472,
+  "torch_cuda_is_available": true,
+  "torch_cuda_device_count": 1,
+  "torch_cuda_device_0_name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "tensor_device": "cuda:0",
+  "matmul_ok": true,
+  "elapsed_sec": 0.200073,
+  "max_memory_allocated_bytes": 209846272
+}

@@ -1,0 +1,5 @@
+sequence_name,sequence_path,frames_probed,detections_total,detections_avg_per_frame,frames_with_detection_pct,continuity_score
+DJI_202308091442_012,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images\Derval\JPGImages\DJI_202308091442_012,40,4,0.1,10.0,0.07692307692307693
+DJI_202306271323_032,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images\Jalogny\JPGImages\DJI_202306271323_032,40,0,0.0,0.0,0.0
+DJI_202306071624_028,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images\Mauron\JPGImages\DJI_202306071624_028,40,0,0.0,0.0,0.0
+DJI_202311071541_065,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images\Mauron\JPGImages\DJI_202311071541_065,40,0,0.0,0.0,0.0

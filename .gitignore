@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (too large)
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+data/raw/**/*.png
+data/raw/**/*.mp4
+data/raw/**/*.avi
+data/raw/**/*.webp
+!data/raw/README.md
+
+# Outputs (can be regenerated)
+outputs/reid/checkpoints/**/*.pt
+outputs/reid/faiss/**/*.index
+outputs/reid/faiss/**/*.index.pkl
+!outputs/reid/README.md
+!outputs/README.md
+
+# Large artifacts
+reports/**/*.png
+reports/**/*.jpg
+!reports/README.md
+
+# Temporary files
+*.tmp
+*.log
+*.csv~
+
+# System
+.env
+.env.local
+secrets.json
+config.local.json
+
+# Other
+.gitkeep

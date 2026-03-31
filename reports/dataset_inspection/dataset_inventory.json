@@ -1,0 +1,134 @@
+{
+  "opencows2020": {
+    "dataset_name": "opencows2020",
+    "dataset_path": "data\\raw\\opencows2020",
+    "exists": true,
+    "total_files": 26083,
+    "total_dirs": 102,
+    "total_size_gb": 4.2782,
+    "image_count": 11779,
+    "video_count": 0,
+    "annotation_like_count": 14098,
+    "has_train_split": true,
+    "has_val_split": false,
+    "has_test_split": true,
+    "has_query_split": false,
+    "has_gallery_split": false,
+    "id_candidate_dirs": 93,
+    "likely_has_cow_ids": true,
+    "likely_has_tracklets": false,
+    "likely_has_multiview": false,
+    "temporary_file_count": 1,
+    "top_extensions": [
+      [
+        ".jpg",
+        11779
+      ],
+      [
+        ".txt",
+        7044
+      ],
+      [
+        ".xml",
+        7043
+      ],
+      [
+        ".html",
+        204
+      ],
+      [
+        ".json",
+        11
+      ],
+      [
+        ".tmp",
+        1
+      ],
+      [
+        ".rdf",
+        1
+      ]
+    ],
+    "top_level_dirs": [
+      "10m32xl88x2b61zlkkgz3fml17"
+    ],
+    "key_notes": [
+      "Temporary download files detected (.tmp/.part/.crdownload), but extracted dataset content is available.",
+      "No video files detected."
+    ],
+    "detection_generic_score": 2,
+    "detection_generic_label": "medium",
+    "reid_score": 3,
+    "reid_label": "high",
+    "project_similarity_score": 1,
+    "project_similarity_label": "low"
+  },
+  "multicamcows2024": {
+    "dataset_name": "multicamcows2024",
+    "dataset_path": "data\\raw\\multicamcows2024",
+    "exists": true,
+    "total_files": 102595,
+    "total_dirs": 562,
+    "total_size_gb": 73.2708,
+    "image_count": 101329,
+    "video_count": 137,
+    "annotation_like_count": 2,
+    "has_train_split": false,
+    "has_val_split": false,
+    "has_test_split": false,
+    "has_query_split": false,
+    "has_gallery_split": false,
+    "id_candidate_dirs": 528,
+    "likely_has_cow_ids": true,
+    "likely_has_tracklets": false,
+    "likely_has_multiview": true,
+    "temporary_file_count": 1,
+    "top_extensions": [
+      [
+        ".jpg",
+        101329
+      ],
+      [
+        ".html",
+        1124
+      ],
+      [
+        ".mp4",
+        137
+      ],
+      [
+        ".tmp",
+        1
+      ],
+      [
+        ".json",
+        1
+      ],
+      [
+        ".rdf",
+        1
+      ],
+      [
+        "<no_ext>",
+        1
+      ],
+      [
+        ".txt",
+        1
+      ]
+    ],
+    "top_level_dirs": [
+      "2inu67jru7a6821kkgehxg3cv2"
+    ],
+    "key_notes": [
+      "Temporary download files detected (.tmp/.part/.crdownload), but extracted dataset content is available.",
+      "No explicit train/val/test split directories detected."
+    ],
+    "detection_generic_score": 2,
+    "detection_generic_label": "medium",
+    "reid_score": 3,
+    "reid_label": "high",
+    "project_similarity_score": 2,
+    "project_similarity_label": "medium"
+  }
+}

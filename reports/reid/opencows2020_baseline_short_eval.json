@@ -1,0 +1,9 @@
+{
+  "train_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\train",
+  "val_dir": "data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images\\test",
+  "weights": "outputs/reid/opencows2020_baseline_short.pt",
+  "gallery_id_count": 46,
+  "val_id_count": 46,
+  "val_images_evaluated": 496,
+  "top1_accuracy": 0.6189516129032258
+}

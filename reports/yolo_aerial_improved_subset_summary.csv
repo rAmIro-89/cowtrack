@@ -1,0 +1,2 @@
+subset_name,source_root,output_root,total_label_files_found,valid_samples_found,missing_image_count,selected_total,train_images,val_images,train_objects,val_objects,train_empty_labels,val_empty_labels,non_empty_max,empty_max,val_ratio,min_box_area,seed
+yolo_aerial_improved,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\processed\yolo_aerial_improved,1079,618,461,156,125,31,428,129,15,5,450,20,0.2,0.0002,42

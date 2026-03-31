@@ -1,0 +1,17 @@
+{
+  "dataset_name": "opencows2020",
+  "dataset_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\raw\\opencows2020\\10m32xl88x2b61zlkkgz3fml17\\identification\\images",
+  "records_found": 4736,
+  "identities_found": 46,
+  "id_map_json": "data\\reid\\opencows2020\\manifests\\id_map.json",
+  "id_map_csv": "data\\reid\\opencows2020\\manifests\\id_map.csv",
+  "dataset_manifest_csv": "data\\reid\\opencows2020\\manifests\\dataset_manifest.csv",
+  "gallery_dir": "data\\reid\\opencows2020\\gallery",
+  "subset_debug_dir": "data\\reid\\opencows2020\\subset_debug",
+  "gallery_images_copied": 92,
+  "subset_images_copied": 48,
+  "gallery_total_images": 92,
+  "subset_total_images": 48,
+  "fallback_used": false,
+  "fallback_glob": "reports/tiling_smallobj/dataset_preview/*.jpg"
+}

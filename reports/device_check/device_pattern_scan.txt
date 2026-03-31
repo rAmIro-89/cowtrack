@@ -1,0 +1,42 @@
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\build_gallery.py:23:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\build_gallery.py:23:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\build_gallery.py:24:model = EmbeddingNet(embedding_dim=256, pretrained=False).to(device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\build_gallery.py:41:tensor = transform(image=rgb)["image"].unsqueeze(0).to(device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\run_inference.py:49:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\run_inference.py:52:inferencer = ReIDInferencer(model=reid_model, gallery=gallery, image_size=224, device=device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\run_inference.py:49:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\run_inference.py:50:reid_model = EmbeddingNet(embedding_dim=256, pretrained=False).to(device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:18:if args.device == "auto":
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:21:selected_device = int(args.device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:23:selected_device = args.device
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:28:model.train(data=args.data, epochs=args.epochs, imgsz=args.imgsz, device=selected_device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:15:parser.add_argument("--device", default="auto", help="auto, cpu, or cuda device id (e.g. 0)")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector.py:19:selected_device: str | int = 0 if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:28:if args.device == "auto":
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:31:selected_device = int(args.device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:33:selected_device = args.device
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:44:device=selected_device,
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:17:parser.add_argument("--device", default="auto", help="auto, cpu, or cuda device id (e.g. 0)")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_baseline.py:29:selected_device: str | int = 0 if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:23:if args.device == "auto":
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:26:selected_device = int(args.device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:28:selected_device = args.device
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:61:device=selected_device,
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:14:parser.add_argument("--device", default="auto")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_aerial_experiments.py:24:selected_device: str | int = 0 if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:29:if args.device == "auto":
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:32:selected_device = int(args.device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:34:selected_device = args.device
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:67:device=selected_device,
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:16:parser.add_argument("--device", default="auto")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\scripts\train_detector_tiled_experiments.py:30:selected_device: str | int = 0 if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\infer.py:22:self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\infer.py:22:self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:44:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:65:a_idx = torch.tensor([t[0] for t in triplets], device=device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:66:p_idx = torch.tensor([t[1] for t in triplets], device=device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:67:n_idx = torch.tensor([t[2] for t in triplets], device=device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:44:device = "cuda" if torch.cuda.is_available() else "cpu"
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:49:model = EmbeddingNet(embedding_dim=config.embedding_dim, pretrained=True).to(device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:57:images = images.to(device)
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\src\reid\train.py:58:labels = labels.to(device)

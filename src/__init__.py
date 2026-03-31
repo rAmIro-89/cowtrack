@@ -1,0 +1,1 @@
+"""CowTrack package."""

@@ -1,0 +1,28 @@
+{
+    "run_name": "opencows2020_baseline_short",
+    "status": "ok",
+    "device": "cuda",
+    "train_ids": 46,
+    "train_images": 4240,
+    "val_ids": 46,
+    "val_images_evaluated": 496,
+    "epochs": 3,
+    "final_loss": 0.0550066325409373,
+    "embedding_dim": 256,
+    "embeddings_generated": true,
+    "embedding_shape_subset_debug": [
+        48,
+        256
+    ],
+    "subset_debug_ids": 12,
+    "subset_debug_images": 48,
+    "top1_accuracy_train_gallery_vs_test_query": 0.6189516129032258,
+    "subset_nn1_same_id_rate": 0.6875,
+    "model_path": "outputs/reid/opencows2020_baseline_short.pt",
+    "train_log": "reports/reid/opencows2020_baseline_short_train.log",
+    "train_metrics_json": "reports/reid/opencows2020_baseline_short_train_metrics.json",
+    "train_metrics_csv": "reports/reid/opencows2020_baseline_short_train_metrics.csv",
+    "eval_json": "reports/reid/opencows2020_baseline_short_eval.json",
+    "visual_similarity_matrix": "reports/reid/opencows2020_baseline_short_visuals/subset_similarity_matrix.png",
+    "visual_neighbors_csv": "reports/reid/opencows2020_baseline_short_visuals/subset_nearest_neighbors.csv"
+}

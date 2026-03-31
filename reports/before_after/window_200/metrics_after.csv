@@ -1,0 +1,2 @@
+frames_processed,detections_total,detections_avg_per_frame,valid_track_ids,crops_saved,frames_with_detection_pct,status,model_path,run_output_dir
+80,0,0.0,0,0,0.0,ok,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\runs\detect\outputs\detector_aerial\yolov8n_aerial_baseline\weights\best.pt,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\before_after_runs\20260330_034834\window_200\after

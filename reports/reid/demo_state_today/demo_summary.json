@@ -1,0 +1,11 @@
+{
+  "total_queries": 496,
+  "correct_predictions": 418,
+  "incorrect_predictions": 78,
+  "top1_accuracy": 0.842741935483871,
+  "mean_score_when_correct": 0.9989943773837752,
+  "mean_score_when_incorrect": 0.9974410167107215,
+  "min_score_when_correct": 0.9729858040809631,
+  "min_score_when_incorrect": 0.9488380551338196,
+  "max_score_when_incorrect": 0.9999839663505554
+}

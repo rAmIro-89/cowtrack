@@ -1,0 +1,28 @@
+{
+  "device": "cuda",
+  "train_dir": "data/raw/opencows2020/10m32xl88x2b61zlkkgz3fml17/identification/images/train",
+  "num_samples": 4240,
+  "num_identities": 46,
+  "epochs": 3,
+  "batch_size": 16,
+  "embedding_dim": 256,
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "avg_loss": 0.0961832359649531,
+      "steps_with_triplets": 259
+    },
+    {
+      "epoch": 2,
+      "avg_loss": 0.06356125364413942,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 3,
+      "avg_loss": 0.0550066325409373,
+      "steps_with_triplets": 262
+    }
+  ],
+  "final_loss": 0.0550066325409373,
+  "model_path": "outputs\\reid\\opencows2020_baseline_short.pt"
+}

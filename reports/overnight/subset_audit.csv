@@ -1,0 +1,2 @@
+subset_root,train_images,val_images,train_empty_labels,val_empty_labels,train_empty_pct,val_empty_pct,train_objects,val_objects,train_tiny_boxes,val_tiny_boxes,missing_label_count,malformed_label_count,invalid_bbox_count,duplicate_image_hash_groups,duplicate_image_files_total,class_distribution,visual_samples_saved
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\processed\yolo_aerial_baseline,200,49,66,14,33.0,28.57,1579,512,1522,487,0,0,0,0,0,"{""0"": 2091}",60

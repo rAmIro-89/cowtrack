@@ -1,0 +1,2 @@
+zenodo_root,output_root,total_label_files_found,valid_samples_found,missing_image_count,invalid_label_count,selected_total,train_images,val_images,train_objects,val_objects,train_empty_labels,val_empty_labels,selection_non_empty_max,selection_empty_max,val_ratio,seed
+C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\raw\zenodo_grazing_cows\extracted\Cattle_drone_images,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\processed\yolo_aerial_baseline,1079,618,461,0,249,200,49,1579,512,66,14,220,80,0.2,42

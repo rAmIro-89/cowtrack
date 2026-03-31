@@ -1,0 +1,4 @@
+model_variant,checkpoint_or_weights,epoch,top1,top5,query_count,gallery_ids,faiss_top1,faiss_top5,notes
+baseline_short,outputs/reid/opencows2020_baseline_short.pt,3,0.6189516129032258,0.9737903225806451,496,46,NA,NA,Short baseline reference
+intermediate_e12,outputs/reid/opencows2020_baseline_e12.pt,12,0.5866935483870968,0.9616935483870968,496,46,0.5866935483870968,0.9616935483870968,Previous intermediate run
+e15_bestckpt,outputs/reid/checkpoints/opencows2020_e15_ckptsel/epoch_015.pt,15,0.782258064516129,0.9798387096774194,496,46,0.782258064516129,0.9798387096774194,Best checkpoint selected by Top-1 over 15 candidates

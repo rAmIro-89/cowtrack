@@ -1,0 +1,22 @@
+{
+  "subset_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\processed\\yolo_aerial_baseline",
+  "train_images": 200,
+  "val_images": 49,
+  "train_empty_labels": 66,
+  "val_empty_labels": 14,
+  "train_empty_pct": 33.0,
+  "val_empty_pct": 28.57,
+  "train_objects": 1579,
+  "val_objects": 512,
+  "train_tiny_boxes": 1522,
+  "val_tiny_boxes": 487,
+  "missing_label_count": 0,
+  "malformed_label_count": 0,
+  "invalid_bbox_count": 0,
+  "duplicate_image_hash_groups": 0,
+  "duplicate_image_files_total": 0,
+  "class_distribution": {
+    "0": 2091
+  },
+  "visual_samples_saved": 8
+}

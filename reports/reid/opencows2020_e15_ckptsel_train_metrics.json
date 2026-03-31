@@ -1,0 +1,89 @@
+{
+  "device": "cuda",
+  "train_dir": "data/raw/opencows2020/10m32xl88x2b61zlkkgz3fml17/identification/images/train",
+  "checkpoint_dir": "outputs\\reid\\checkpoints\\opencows2020_e15_ckptsel",
+  "num_samples": 4240,
+  "num_identities": 46,
+  "epochs": 15,
+  "batch_size": 16,
+  "embedding_dim": 256,
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "avg_loss": 0.09757754849209582,
+      "steps_with_triplets": 264
+    },
+    {
+      "epoch": 2,
+      "avg_loss": 0.06019237249439477,
+      "steps_with_triplets": 264
+    },
+    {
+      "epoch": 3,
+      "avg_loss": 0.05886564231436493,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 4,
+      "avg_loss": 0.05899041413114283,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 5,
+      "avg_loss": 0.03747021073018605,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 6,
+      "avg_loss": 0.037703861856288365,
+      "steps_with_triplets": 265
+    },
+    {
+      "epoch": 7,
+      "avg_loss": 0.04437512494740866,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 8,
+      "avg_loss": 0.03345827626565225,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 9,
+      "avg_loss": 0.04056485167897816,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 10,
+      "avg_loss": 0.04051715104537577,
+      "steps_with_triplets": 260
+    },
+    {
+      "epoch": 11,
+      "avg_loss": 0.038626842483227966,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 12,
+      "avg_loss": 0.033315446342886336,
+      "steps_with_triplets": 262
+    },
+    {
+      "epoch": 13,
+      "avg_loss": 0.03452575034681567,
+      "steps_with_triplets": 263
+    },
+    {
+      "epoch": 14,
+      "avg_loss": 0.025417758485429726,
+      "steps_with_triplets": 265
+    },
+    {
+      "epoch": 15,
+      "avg_loss": 0.025586216090211892,
+      "steps_with_triplets": 265
+    }
+  ],
+  "final_loss": 0.025586216090211892,
+  "model_path": "outputs\\reid\\opencows2020_e15_ckptsel_final.pt"
+}

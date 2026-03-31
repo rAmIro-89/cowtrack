@@ -1,0 +1,29 @@
+{
+  "dataset": "opencows2020",
+  "subset_dir": "data\\reid\\opencows2020\\subset_debug",
+  "images_discovered": 48,
+  "images_loaded": 48,
+  "images_failed": 0,
+  "unique_ids_in_subset": 12,
+  "id_list": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012"
+  ],
+  "embedding_shape": [
+    48,
+    256
+  ],
+  "embedding_dim": 256,
+  "batch_size_tested": 48,
+  "real_data_used": true
+}

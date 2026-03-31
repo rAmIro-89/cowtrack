@@ -1,0 +1,26 @@
+{
+  "subset_dir": "data\\reid\\opencows2020\\subset_debug",
+  "num_images_used": 48,
+  "num_unique_ids": 12,
+  "unique_ids": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012"
+  ],
+  "embedding_shape": [
+    48,
+    256
+  ],
+  "similarity_matrix_png": "reports\\reid\\opencows2020_baseline_short_visuals\\subset_similarity_matrix.png",
+  "nearest_neighbors_csv": "reports\\reid\\opencows2020_baseline_short_visuals\\subset_nearest_neighbors.csv",
+  "device": "cuda"
+}

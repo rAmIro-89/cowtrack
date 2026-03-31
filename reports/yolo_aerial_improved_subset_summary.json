@@ -1,0 +1,20 @@
+{
+  "subset_name": "yolo_aerial_improved",
+  "source_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\raw\\zenodo_grazing_cows\\extracted\\Cattle_drone_images",
+  "output_root": "C:\\Users\\Ramiro\\Documents\\Trabajo Integrador\\cowtrack\\data\\processed\\yolo_aerial_improved",
+  "total_label_files_found": 1079,
+  "valid_samples_found": 618,
+  "missing_image_count": 461,
+  "selected_total": 156,
+  "train_images": 125,
+  "val_images": 31,
+  "train_objects": 428,
+  "val_objects": 129,
+  "train_empty_labels": 15,
+  "val_empty_labels": 5,
+  "non_empty_max": 450,
+  "empty_max": 20,
+  "val_ratio": 0.2,
+  "min_box_area": 0.0002,
+  "seed": 42
+}

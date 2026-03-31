@@ -1,0 +1,4 @@
+sequence_name,window_requested,model_path,total_frames_available,frames_processed,detections_total,detections_avg_per_frame,valid_track_ids,crops_saved,frames_with_detection_pct,status,output_dir
+DJI_202308091442_012,100,runs/detect/outputs/detector_aerial/yolov8n_aerial_baseline/weights/best.pt,80,80,0,0.0,0,0,0.0,ok,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\winner_windows_after_ft\window_100
+DJI_202308091442_012,200,runs/detect/outputs/detector_aerial/yolov8n_aerial_baseline/weights/best.pt,80,80,0,0.0,0,0,0.0,ok,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\winner_windows_after_ft\window_200
+DJI_202308091442_012,400,runs/detect/outputs/detector_aerial/yolov8n_aerial_baseline/weights/best.pt,80,80,0,0.0,0,0,0.0,ok,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\winner_windows_after_ft\window_400

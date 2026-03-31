@@ -1,0 +1,7 @@
+sequence_name,config_name,frames_processed,detections_total,detections_avg_per_frame,valid_track_ids,crops_saved,frames_with_detection_pct,output_dir,status
+DJI_202308091442_012,current,12,0,0.0,0,3,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202308091442_012\current,ok
+DJI_202308091442_012,lowconf_relaxed,12,0,0.0,0,4,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202308091442_012\lowconf_relaxed,ok
+DJI_202306271323_032,current,12,0,0.0,0,0,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202306271323_032\current,ok
+DJI_202306271323_032,lowconf_relaxed,12,0,0.0,0,0,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202306271323_032\lowconf_relaxed,ok
+DJI_202306071624_028,current,12,0,0.0,0,0,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202306071624_028\current,ok
+DJI_202306071624_028,lowconf_relaxed,12,0,0.0,0,0,0.0,C:\Users\Ramiro\Documents\Trabajo Integrador\cowtrack\data\interim\sprint1_benchmark\dji_202306071624_028\lowconf_relaxed,ok
