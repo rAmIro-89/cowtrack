@@ -375,6 +375,11 @@ Links de descarga y referencia:
 3. `train.py` usa un minado de tripletas basico dentro de batch (baseline).
 4. La calidad de reconocimiento depende fuertemente de la calidad del dataset por individuo.
 
+
 ## Nota sobre el notebook original
 
 Se elimino la simulacion de embeddings aleatorios y las dependencias de Colab/Drive. El flujo principal se migro a modulos y scripts locales en VS Code.
+
+
+## The project was subsequently extended by team member Emiliano Orlando:
+https://github.com/emilianorlando-collab/cow-tracker-mvp
